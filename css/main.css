@@ -12,13 +12,35 @@ h1, p {
 }
 
 .btn {
+  border-radius: 4px;
+  border-color: #b4fff4;
+  color: #90ccc3;
+}
 
+a {
+  color: #90ccc3;
 }
 
 .btn-ghost {
-
+  transition: all 150ms linear;
+  border-radius: 4px;
+  border-color: #b4fff4;
+  color: #90ccc3;
 }
 
-.btn-ghost:hover {
+.btn:active {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+}
+
+.btn-ghost:active {
+  color: #90ccc3;
+}
+
+.btn-ghost:hover, .btn-ghost:focus {
   background-color: rgba(180, 255, 244, .2);
+  border-radius: 4px;
+  border-color: #b4fff4;
+  color: #90ccc3;
 }
