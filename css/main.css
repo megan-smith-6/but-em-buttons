@@ -10,3 +10,15 @@ h1, p {
   color: #fff;
   text-shadow: 0 0 8px rgba(255, 255, 255, .7);
 }
+
+.btn {
+
+}
+
+.btn-ghost {
+
+}
+
+.btn-ghost:hover {
+  background-color: rgba(180, 255, 244, .2);
+}
